@@ -1,0 +1,9 @@
+com\bahrini\microauthservice\config\AuthorizationServerConfiguration.class
+com\bahrini\microauthservice\model\Role.class
+com\bahrini\microauthservice\model\AuthUserDetail.class
+com\bahrini\microauthservice\MicroAuthServiceApplication.class
+com\bahrini\microauthservice\repository\UserDetailRepository.class
+com\bahrini\microauthservice\model\Permission.class
+com\bahrini\microauthservice\service\UserDetailServiceImpl.class
+com\bahrini\microauthservice\model\User.class
+com\bahrini\microauthservice\config\WebSecurityConfiguration.class

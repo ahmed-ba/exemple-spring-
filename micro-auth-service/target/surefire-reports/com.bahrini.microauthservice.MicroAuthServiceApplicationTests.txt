@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.bahrini.microauthservice.MicroAuthServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.056 s <<< FAILURE! - in com.bahrini.microauthservice.MicroAuthServiceApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.bahrini.microauthservice.MicroAuthServiceApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+Caused by: java.lang.IllegalArgumentException: Value must only contain valid chars
+

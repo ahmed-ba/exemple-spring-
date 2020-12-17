@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "jpa.hibernate.ddl-auto.naming.physical-strategy",
+      "type": "java.lang.String",
+      "description": "Description for jpa.hibernate.ddl-auto.naming.physical-strategy."
+  }
+] }
